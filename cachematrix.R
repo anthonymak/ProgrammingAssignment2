@@ -33,3 +33,13 @@ cacheSolve <- function(x, ...) {
   x$setinverse(i)
   i
 }
+
+##To test:
+##>  m1 <- matrix(c(1,0,5,2,1,6,3,4,0),ncol=3,nrow=3)
+##>  m2 <- makeCacheMatrix(m1)
+##>  cacheSolve(m2)
+##getting cached data
+##[,1] [,2] [,3]
+##[1,]  -24   18    5
+##[2,]   20  -15   -4
+##[3,]   -5    4    1
